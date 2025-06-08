@@ -14,6 +14,7 @@
 -Python
 
 ## 実際のコード
+~~~python
 import numpy as np
 import pandas as pd
 from scipy.integrate import simpson
@@ -73,3 +74,4 @@ os.makedirs(output_dir, exist_ok=True)
 # 結果を新しいExcelファイルに保存
 results_df.to_excel(output_path, index=False)
 print(f"全ファイルの処理が完了しました。結果は {output_path} に保存されました。")
+~~~
